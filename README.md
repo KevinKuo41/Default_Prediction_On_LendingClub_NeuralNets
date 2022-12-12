@@ -1,4 +1,4 @@
-# Default_Prediction_On_LendingClub_NeuralNetworks
+# Default Prediction On LendingClub Dataset With Neural Network Models <br><br> 使用神經網絡模型對 LendingClub 客戶資料進行違約預測
 
 #### Summary in English
 ![Presentation_LendingClub_NN-01](https://user-images.githubusercontent.com/92542287/207151377-5f09be4f-46e4-4ab1-b6b0-47206587ff33.jpg)
