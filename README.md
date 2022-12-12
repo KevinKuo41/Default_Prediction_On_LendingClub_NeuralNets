@@ -1,6 +1,6 @@
 # Default_Prediction_On_LendingClub_NeuralNetworks
 
-#### Summary inEnglish
+#### Summary in English
 ![Presentation_LendingClub_NN-01](https://user-images.githubusercontent.com/92542287/207151377-5f09be4f-46e4-4ab1-b6b0-47206587ff33.jpg)
 ![Presentation_LendingClub_NN-02](https://user-images.githubusercontent.com/92542287/207151395-9970b94b-6bc1-477a-aca7-3ca888672b18.jpg)
 ![Presentation_LendingClub_NN-03](https://user-images.githubusercontent.com/92542287/207151401-ad96c840-926f-4a2f-b16c-95c1ce858f72.jpg)
@@ -17,3 +17,4 @@
 ![Presentation_LendingClub_NN-14](https://user-images.githubusercontent.com/92542287/207151490-823a26bf-e97c-43d6-92a3-580be356e710.jpg)
 ![Presentation_LendingClub_NN-15](https://user-images.githubusercontent.com/92542287/207151502-00ad1717-d7d1-42c8-bc8b-6bfef0bca026.jpg)
 
+#### 中文摘要
