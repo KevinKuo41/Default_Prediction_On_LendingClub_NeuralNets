@@ -23,4 +23,4 @@
 ## (6) Data Scaling:
 #### - For Neural Network Models, standardising the features with a Mean of 0 and a Standard Deviation of 1 will significantly improve the models’ learning process.
 
-## After the entire process, we have *42* distinctive features in total. 
+## After the entire process, we have **42** distinctive features in total. 
