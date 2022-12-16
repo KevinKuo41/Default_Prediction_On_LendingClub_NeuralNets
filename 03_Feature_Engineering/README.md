@@ -3,7 +3,7 @@
 ## (1) Imputation:
 #### - Due to 80%+ being NA, we converted “joint” tagged features into a categorical feature “co-borrower”. <br><br> - For “emp_length”, we replaced its NAs with “unknown”, as one of the categories.
 
-####   -> 1 new features are created
+####   -> 1 new feature is created
 
 ## (2) Feature Mutation:
 #### - For features with most samples concentrated in a certain class and only few in others, we decided to merge minorities into one category, to make them more statistically meaningful (such as “pub_rec_bankruptcies”) <br><br> - We created “time_until_fc” (Credit Record Period) with counting the difference between “earliest_cr_line” and “issue_d”. <br><br> - We created “active_ratio_bc” (Ratio of Active Bankcard Account) by dividing “num_actv_bc_tl” by “num_bc_tl”. <br><br> - We created categorical feature “grade” with extracting the 1st letter from “sub_grade”. <br><br> - We created “open_rev_ratio” (Open Revolving Account Ratio) by by dividing “num_op_rev_tl” by “num_rev_accts”. <br>
