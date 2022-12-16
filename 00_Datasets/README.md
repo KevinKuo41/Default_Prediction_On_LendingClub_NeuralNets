@@ -1,5 +1,5 @@
 # Source
-#### Overall, around 1 million clients' 48 feature variables and 1 target variable (loan_status) comprise the dataset in this work. These clients were all requesting loans on the LendingClub platform and successfully received the loans. However, some of them could not repay the loans and default. Generally speaking, this dataset is an imbalanced dataset with only a few clients defaulting, and a majority of clients stay non-default. <br> 
+#### Overall, around 1 million clients' 48 feature variables and 1 target variable (loan_status) comprise the dataset in this work. These clients were all requesting loans on the LendingClub platform and successfully received the loans. However, some of them could not repay the loans and default. Generally speaking, this dataset is an imbalanced dataset with 29.7% clients defaulting, and 70.3% clients stay non-default. <br> 
 Introducation to LendingClub: https://www.lendingclub.com/ <br> 
 Download Link for the Dataset: https://drive.google.com/drive/folders/1COOgIR7x7Y1PH4y3j1h0ys7Ee0h3srfX?usp=sharing <br> 
 
@@ -19,7 +19,7 @@ Download Link for the Dataset: https://drive.google.com/drive/folders/1COOgIR7x7
 | earliest_cr_line      | The month the borrower's earliest reported credit line was opened                                                                                                                                                  |
 | emp_length            | Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.                                                                                  |
 | emp_title             | The job title supplied by the Borrower when applying for the loan.*                                                                                                                                                |
-| home_ownership        | The home ownership status provided by the borrower during registration?or obtained from the credit report.?Our values are: RENT, OWN, MORTGAGE, OTHER                                                              |
+| home_ownership        | The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER                                                              |
 | inq_last_6mths        | The number of inquiries in past 6 months (excluding auto and mortgage inquiries)                                                                                                                                   |
 | installment           | The monthly payment owed by the borrower if the loan originates.                                                                                                                                                   |
 | int_rate              | Interest Rate on the loan                                                                                                                                                                                          |
@@ -57,3 +57,4 @@ Download Link for the Dataset: https://drive.google.com/drive/folders/1COOgIR7x7
 | total_rec_prncp       | Principal received to date                                                                                                                                                                                         |
 | verification_status   | Indicates if income was verified by LC, not verified, or if the income source was verified                                                                                                                         |
 | zip_code              | The first 3 numbers of the zip code provided by the borrower in the loan application.                                                                                                                              |
+
