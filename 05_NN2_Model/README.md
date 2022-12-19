@@ -13,4 +13,4 @@
 | Learning Rate       | 0.001  |
 | Epochs              | 100    |      
 
-#### 3. For the performance metrics, we use Confusion Matrix, ROC Curve, False Negative Rate, Precision-Recall Curve, and the Distribution of Predicted Default Probabilities <br> (Please refer to the 09_Model_Comparison)
+#### 3. For the performance metrics, we use the Confusion Matrix, ROC Curve, False Negative Rate, Precision-Recall Curve, and Distribution of Predicted Default Probabilities <br> (Please refer to the 09_Model_Comparison)
