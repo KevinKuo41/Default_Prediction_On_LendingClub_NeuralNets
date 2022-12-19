@@ -48,7 +48,8 @@
 
 #### False Negative Rate means that the probability that we falsely classify defaulters as non-defaulters. The lower, the better. We know that at the 50% Cut-off Level the NN2 and NN3 models outperform the NN4 model.
 
-## 5. Distribution of Predicted Default Probabilities 
+## 5. Distribution of Predicted Default Probabilities
+#### Unlike the XGBoost & RF Models, the output from Neural Networks Models is the default probability instead of a label so we don't need to apply calibration.
 ### - NN2 Model
 ![圖片](https://user-images.githubusercontent.com/92542287/208510123-1bd8ac7a-8815-45d4-a0d7-0db1a562a8d3.png)
 
