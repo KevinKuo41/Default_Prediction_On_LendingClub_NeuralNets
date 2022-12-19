@@ -1,7 +1,5 @@
 # Hyperparameter Tuning
-#### We use grid search and apply 5-fold cross validation on the training dataset for hyperparameter tuning. 
-
-Tuned hyperparameters include: 
+#### We use grid search and apply 5-fold cross validation on the training dataset for hyperparameter tuning. Tuned hyperparameters include: 
 
 1. The number of nodes in each layer
 2. The dropout rate of each layer
