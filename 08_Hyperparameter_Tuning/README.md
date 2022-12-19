@@ -6,8 +6,8 @@
 3. The value of L2 penalties on kernel & bias
 4. The learning rate
 5. The number of epochs
-6. The activation function can be either tanh, ReLu, or Sigmoid.
-<br> *For batch size, we use the default value of 32.
+6. The activation function can be either tanh, ReLu, or Sigmoid.<br>
+ *For batch size, we use the default value of 32.
 
 
 ## 1. Optimal Hyperparameters for NN2 Model
