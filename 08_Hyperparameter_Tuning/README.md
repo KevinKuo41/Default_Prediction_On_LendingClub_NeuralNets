@@ -6,7 +6,7 @@
 
 | 10 Hyper Parameters  | Values | Range               |
 |----------------------|--------|---------------------|
-| Activation Function  | tanh   | tanh, ReLu, Sigmoid |
+| Activation Function  | Tanh   | Tanh, ReLu, Sigmoid |
 | Input Layer          | 42     | 42                  |
 | Dropout Rate         | 0      | 0-0.5               |
 | Hidden Layer 1       | 10     | 3-50                |
