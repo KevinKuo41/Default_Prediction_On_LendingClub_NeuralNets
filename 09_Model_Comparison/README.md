@@ -55,7 +55,7 @@
 
 
 ## 4. False Negative Rate
-#### False Negative Rate means that the probability that we falsely classify defaulters as non-defaulters. The lower, the better. We know that at the 50% Cut-off Level the NN2 and NN3 models outperform the NN4 model.
+#### False Negative Rate means that the probability that we falsely classify defaulters as non-defaulters. The lower, the better. We know that at the 50% Cut-off Level the NN2 and NN3 models outperform the NN4 model. The predicted default probabilities of the NN4 models almost concentrate on 20% to 80%. By contrast, the predicted default probability distribution of the NN2 & NN3 model is more evenly distributed (ranging from 10% to 80+%).
 ### - NN2, NN3 & NN4 Comparison
 | Model     | False Negative Rate |
 |-----------|---------------------|
@@ -77,7 +77,6 @@
 ### - NN4 Model
 ![圖片](https://user-images.githubusercontent.com/92542287/208510523-6056b944-1960-4f93-b860-1692a0c76ba2.png)
 
-#### The predicted default probabilities of the NN4 models almost concentrate on 20% to 80%. By contrast, the predicted default probability distribution of the NN2 & NN3 model is more evenly distributed (ranging from 10% to 80+%).
 
 ## 6. Conclusion
 #### Based on the comprehensive performance in the confusion matrix, AUC and False Negative Rate, we choose the NN2 model as the based model to make further lending decisions. 
