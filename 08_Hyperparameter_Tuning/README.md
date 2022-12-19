@@ -1,6 +1,17 @@
 # Hyperparameter Tuning
 #### We use grid search and apply 5-fold cross validation on the training dataset for hyperparameter tuning. 
 
+Tuned hyperparameters include: 
+
+1. The number of nodes in each layer
+2. The dropout rate of each layer
+3. The value of L2 penalties on kernel & bias
+4. The learning rate
+5. The number of epochs
+6. The activation function can be either tanh, ReLu, or Sigmoid.
+*For batch size, we use the default value of 32.
+
+
 ## 1. Optimal Hyperparameters for NN2 Model
 #### The values in column Values are the optimal parameters, and the values in column Range are the range of numbers we grid search through
 
