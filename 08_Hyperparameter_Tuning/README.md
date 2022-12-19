@@ -7,7 +7,7 @@
 4. The learning rate
 5. The number of epochs
 6. The activation function can be either tanh, ReLu, or Sigmoid.
-*For batch size, we use the default value of 32.
+<br> *For batch size, we use the default value of 32.
 
 
 ## 1. Optimal Hyperparameters for NN2 Model
