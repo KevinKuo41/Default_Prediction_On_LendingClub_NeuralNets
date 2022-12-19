@@ -43,7 +43,7 @@
 
 
 ## 3. Precision-Recall Curve
-#### In terms of the Precision-Recall Curve, no matter how hard we tried to imporve the NN models, they still cannot achieve an over 50% average precision. Among them, the NN2 model achieve the highest AP of 49.03%. Frankly speaking, the performance of NN models are worse than that of the XGBoost and RF models.
+#### In terms of the Precision-Recall Curve, no matter how hard we tried to imporve the NN models, they still cannot achieve an over 50% average precision. Among them, the NN2 model achieve the highest AP of 49.03%. Frankly speaking, in the given dataset, the performance of NN models are worse than that of the XGBoost and RF models.
 ### - NN2, NN3 & NN4 Comparison
 | Model     | Precision-Recall |
 |-----------|------------------|
