@@ -58,7 +58,7 @@ If a borrower has credit inquiry records in the last 6 months, it means that he/
 Both are associated of borrower's financial stability
 ### (6) Verification Status
 Document Verifications includes 1. Business Tax returns. 2. Proof of personal income. 3. Proof of identity and address for you or your business, so the candidate may have higher financial stability if candidate can provide these evidences
-### (7) Instalment & Loan Amount & Interest Rate & Monthly Debt Payments / Total Debt
+### (7) Instalmen, Loan Amount, Interest Rate, Monthly Debt Payments / Total Debt
 Interest Rate on loans is decided based on an individual’s grade, so they are highly related. A borrower with a higher interest rate and the loan amount will have a higher instalment, meaning they will need to pay more monthly. 
 Instalment is the monthly payment owed by the borrower if the loan originates. Both Instalment & Monthly Debt Payments / Total Debt would impact the liquidity and saving ability of the borrower.
 ### (8) Total Bankcard Credit limit & Total High Credit Limit
