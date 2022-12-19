@@ -1,5 +1,5 @@
 # Source
-#### Overall, around 1 million clients' 48 feature variables and 1 target variable (loan_status) comprise the dataset in this work. These clients were all requesting loans on the LendingClub platform and successfully received the loans. However, some of them could not repay the loans and default. Generally speaking, this dataset is an imbalanced dataset with 29.7% clients defaulting, and 70.3% clients stay non-default. <br> 
+#### Overall, more than 1 million clients' 48 feature variables and 1 target variable (loan_status) comprise the dataset in this work. These clients requested loans on the LendingClub platform and successfully received the loans. However, some of them could not repay the loans and default. This dataset is imbalanced, with 29.7% of clients defaulting and 70.3% staying non-default.  <br> 
 Introducation to LendingClub: https://www.lendingclub.com/ <br> 
 Download Link for the Dataset: https://drive.google.com/drive/folders/1COOgIR7x7Y1PH4y3j1h0ys7Ee0h3srfX?usp=sharing <br> 
 
