@@ -3,6 +3,7 @@
 
 | 11 Hyper Parameters  | Values |
 |----------------------|--------|
+| Activation Function  | tanh   |
 | Input Layer          | 42     |
 | Dropout Rate         | 0      |
 | Hidden Layer 1       | 10     |
