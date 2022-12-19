@@ -1,4 +1,4 @@
-# Setup of NN2 (NeuralNet With 2 Hidden Layers) Classification Model
+# Setup of NN2 Classification Model
 #### 1. We apply Oversampling Approach as the rebalancing technique on the dataset for NN2 Model <br><br><br> 2. After 5-fold cross-validation for Hyperparameter tuning, the 10 optimal hyperparameters for NN2 Model: <br> (The details of Hyperparameter Tuning are outlined in 08_Hyperparameter_Tuning)
 
 | 10 Hyper Parameters | Values |
