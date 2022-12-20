@@ -14,6 +14,12 @@
 #### (2) For borrowers, since we only have the data of their total payment instead of their payment per period, we need to make an assumption, which is we assume their outstanding debts occurred in the last several periods of their loan repayment. Based on the assumption, we can easily divide and sort their total payment into repayment amounts in each year within repayment term. <br><br> For example, supposing that one defaulter's loan amount is $15,000, his total payment is $10,000, and he is required to repay $5,000 per year, we would deem he successfully paid the first 2 years' instalments and defaulted the 3rd year's repayment. Based on our assumption, he repaid $5,000 in both the 1st and 2nd years and paid nothing in the 3rd year. <br>
 #### (3) Once we have the repayment amount for each year and the discount rate, we can thus calculate the Net Present Value by:
 $$Net \ Present \ Value = \sum_{i=1}^{5} \frac{Repayment_i}{(1 + Discount \ Rate)^i}\ - Loan \ Amount$$
+#### (4) We calculated the NPV of every loan and summed them under different default rates. We found that if we implement 24.7% as the threshold to screen the loans, the total NPV of the approved loans will be $964,049, which is the highest NPV we can achieve.
+
+##### The optimal threshold of 24.7% (shown as the black spot) and its brought NPV in green are shown in the below graph. 
+![圖片](https://user-images.githubusercontent.com/92542287/208782438-ba6d7729-b9c5-49d4-8275-b411066aaa84.png)
+
+
 
 
 
