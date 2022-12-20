@@ -21,6 +21,6 @@
 #### - For categorical features, we conduct label encoding to convert categories into numbers since we will not implement linear models.<br>
 
 ## (6) Data Scaling:
-#### - For Neural Network Models, standardising the features with a Mean of 0 and a Standard Deviation of 1 would significantly improve the models’ learning process. Thus, we did it for all feature variables. <br><br> - Standardisation was applied to all Numerical Features & Categorical Features. For Categorical Features, the standardisation would not affect what category a sample is sorted into but just the label value of categories in categorical features. The label value is just a tag with no numerical meaning, so it doesn't affect the result. <br>
+#### - For Neural Network Models, standardising the features with a Mean of 0 and a Standard Deviation of 1 would significantly improve the models’ learning process. Thus, we did it for all feature variables. <br><br> - Standardisation was applied to all Numerical Features & Categorical Features. For Categorical Features, the standardisation would not affect what category a sample is sorted into but just the label value of categories in categorical features. The label value is just a tag with no numerical meaning, so this process doesn't affect the efficacy of Categorical Features. <br>
 
 ## After the entire process, we have **42** distinctive features in total. 
