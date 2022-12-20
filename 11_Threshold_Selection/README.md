@@ -13,7 +13,7 @@
 #### (1) We noticed that the loans in the LendingClub dataset were issued from April 2016 to Sep 2020 in the USA, and the average cost of capital during this period was 1.8% (Based on Fred Economic data), so we use 1.8% as the discount rate to discount borrowers' cash flow into Present Value. <br>
 #### (2) For borrowers, since we only have the data of their total payment instead of their payment per period, we need to make an assumption, which is we assume their outstanding debts occurred in the last several periods of their loan repayment. Based on the assumption, we can easily divide and sort their total payment into repayment amounts in each year within repayment term. <br><br> For example, supposing that one defaulter's loan amount is $15,000, his total payment is $10,000, and he is required to repay $5,000 per year, we would deem he successfully paid the first 2 years' instalments and defaulted the 3rd year's repayment. Based on our assumption, he repaid $5,000 in both the 1st and 2nd years and paid nothing in the 3rd year. <br>
 #### (3) Once we have the repayment amount for each year and the discount rate, we can thus calculate the Net Present Value by:
-$$NPV = \sum_{i=0}^{5} \frac{Repayment_i}{(1 + DiscountRate)^i}\ - Loan Amount$
+$$NPV = \sum_{i=0}^{5} \frac{Repayment_i}{(1 + DiscountRate)^i}\ - Loan Amount$$
 
 
 
