@@ -67,7 +67,7 @@
 
 
 ## 5. Distribution of Predicted Default Probabilities
-#### Unlike the XGBoost & RF Models, the output from Neural Networks Models is the default probability instead of a label so we don't need to apply calibration.
+#### Unlike the XGBoost & RF Models, the output from Neural Networks Models is the default probability instead of a label, so we don't need to apply calibration. The main reason is that we use the Sigmoid function as the activation function in the output layer for all NN models.
 ### - NN2 Model
 ![圖片](https://user-images.githubusercontent.com/92542287/208510123-1bd8ac7a-8815-45d4-a0d7-0db1a562a8d3.png)
 
