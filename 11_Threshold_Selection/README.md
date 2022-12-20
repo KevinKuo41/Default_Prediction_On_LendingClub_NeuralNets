@@ -2,7 +2,7 @@
 #### Based on the comprehensive performance in the confusion matrix, AUC and False Negative Rate, we know that the NN2 model outperforms, so here we use the NN2 model to conduct further research on the Loan Selection Strategy and find the optimal predicted default rate threshold to achieve the highest profit when lending money on LendingClub platform.
 
 ## 1. Loans Screening Strategy Without Considering Cost of Capital
-#### Like what we did in the "Default_Prediction_On_XGB_RF", we first took the average on loan returns of borrowers accepted under different default probabilities. Then, Our predicted default probabilities can serve as a threshold to decide which loans to accept. If we apply the predicted default probability of 31.2% as the threshold to screen the loans, we can reach the highest total profit. The green area below is the total profit we will get. (It's a bit different from the analysis in the "Default_Prediction_On_XGB_RF" since, in that project, our aim is to achieve the highest return on loans. However, here we aim to achieve the highest total profit.)
+#### Like what we did in the "Default_Prediction_On_XGB_RF", we first took the average on loan returns of borrowers accepted under different default probabilities. Then, our predicted default probabilities can serve as a threshold to decide which loans to accept. If we apply the predicted default probability of 31.2% as the threshold to screen the loans, we can reach the highest total profit. The green area below is the total profit we will get. (It's a bit different from the analysis in the "Default_Prediction_On_XGB_RF" since, in that project, our aim is to achieve the highest return on loans. However, here we aim to achieve the highest total profit.)
 
 ##### The optimal threshold of 31.2% (shown as the black spot) and its brought profit in green are shown in the below graph. 
 ![圖片](https://user-images.githubusercontent.com/92542287/208772860-23a45558-5010-4f6f-9782-f24f7ec1e022.png)
@@ -10,20 +10,20 @@
 #### However, under real life condition, it is more reasonable to take account of the cost of capital. Thus, in the section 2, we will choose threshold based on the NPV.
 
 ## 2. Loans Screening Strategy With Considering Cost of Capital
-#### (1) We noticed that the loans in the LendingClub dataset were issued from April 2016 to Sep 2020 in the USA, and the average cost of capital during this period was 1.8% (Based on Fred Economic data), so we use 1.8% as the discount rate to discount borrowers' cash flow into Present Value. <br>
+#### (1) We notice that the loans in the LendingClub dataset were issued from April 2016 to Sep 2020 in the USA, and the average cost of capital during this period was 1.8% (Based on Fred Economic data), so we use 1.8% as the discount rate to discount borrowers' cash flow into Present Value. <br>
 #### (2) For borrowers, since we only have the data of their total payment instead of their payment per period, we need to make an assumption, which is we assume their outstanding debts occurred in the last several periods of their loan repayment. Based on the assumption, we can easily divide and sort their total payment into repayment amounts in each year within repayment term. <br><br> For example, supposing that one defaulter's loan amount is $15,000, his total payment is $10,000, and he is required to repay $5,000 per year, we would deem he successfully paid the first 2 years' instalments and defaulted the 3rd year's repayment. Based on our assumption, he repaid $5,000 in both the 1st and 2nd years and paid nothing in the 3rd year. <br>
 #### (3) Once we have the repayment amount for each year and the discount rate, we can thus calculate the Net Present Value by:
 $$Net \ Present \ Value = \sum_{i=1}^{5} \frac{Repayment_i}{(1 + Discount \ Rate)^i}\ - Loan \ Amount$$
-#### (4) We calculated the NPV of every loan and summed them under different default rates. We found that if we implement 24.7% as the threshold to screen the loans, the total NPV of the approved loans will be $964,049, which is the highest NPV we can achieve.
+#### (4) We calculate the NPV of every loan and sum them under different default rates. We find that if we implement 24.7% as the threshold to screen the loans, the total NPV of the approved loans will be $964,049, which is the highest NPV we can achieve. The green area below is the total NPV we will get.
 
 ##### The optimal threshold of 24.7% (shown as the black spot) and its brought NPV in green are shown in the below graph. 
 ![圖片](https://user-images.githubusercontent.com/92542287/208782438-ba6d7729-b9c5-49d4-8275-b411066aaa84.png)
 
+## 3. Optimal Interest Rate Based On Selected Clients
+#### After calculating the NPV and choosing the optimal threshold for screening clients, we can still go further. We can find under what level of interest rate we can achieve the highest NPV from our target clients. Among the 14,678 target clients, we calculate the average NPV generated by their loans under different interest rates. We then find that when setting 12.5% as the interest rate, we can obtain the highest average NPV $534. Thus, the optimal interest rate is 12.5%.
 
-
-
-
-
+##### The optimal interst rate of 12.5% is shown as the black spot in the below graph. 
+![圖片](https://user-images.githubusercontent.com/92542287/208783762-15d60cee-5680-4915-ba5d-ee19968444bc.png)
 
 
 
