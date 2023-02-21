@@ -1,6 +1,7 @@
 # Default Prediction On LendingClub Dataset With Neural Network Models <br><br> 使用神經網絡模型對 LendingClub 客戶資料進行違約預測
+[English Summary](https://github.com/KevinKuo41/Default_Prediction_On_LendingClub_XGB_RF#english-summary) | [中文摘要](https://github.com/KevinKuo41/Default_Prediction_On_LendingClub_XGB_RF#%E4%B8%AD%E6%96%87%E6%91%98%E8%A6%81)
 
-#### Summary in English
+#### English Summary 
 ![Presentation_LendingClub_NN-01](https://user-images.githubusercontent.com/92542287/209256162-c4ebdb0a-de7e-439a-82dd-4f1b2b54da99.jpg)
 ![Presentation_LendingClub_NN-02](https://user-images.githubusercontent.com/92542287/209256170-845a0c20-cd88-457b-97ff-e6a57fc9946d.jpg)
 ![Presentation_LendingClub_NN-03](https://user-images.githubusercontent.com/92542287/209256180-88a6fc77-4c59-4218-b9fe-ae325709a8a1.jpg)
